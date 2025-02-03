@@ -4,19 +4,33 @@ public class Main
 {
   public static void main(String[] args)
   {
-    // Create some arrays here to test your methods
-    
+   String[] foo = {"abc", "123", "def"}
   }
 
   public static int countLength(String[] arr, int targetLength)
   {
-    // replace with your code
-    return 0;
+    int count = 0;
+    for (int i =0; i < arr.length; i++) 
+    {
+      String elem = arr[i];
+      if(targetLength == elem..length())
+      {
+        count++;
+      }
+
+    }       return 0;
   }
 
   public static int indexOf(double[] arr, double target)
   {
-    // replace with your code
+    for (int i=0; i < arr.length; i++)
+    {
+      double elem = arr[i]
+      if (target == hai)
+      {
+        return i
+      }
+    }
     return -1;
   }
 
